@@ -1,0 +1,6 @@
+{
+	"clt_cas": [{
+		"query": "DELETE FROM APP_TENANTS WHERE APP_ID = ? AND TENANT_ID = ?",
+		"params": ["APP_ID", "TENANT_ID"]
+	}]
+}

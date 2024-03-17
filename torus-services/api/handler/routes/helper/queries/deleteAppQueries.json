@@ -1,0 +1,200 @@
+{
+	"clt_cas": [{
+		"query": "DELETE FROM APP_USER_ROLES  WHERE APPU_ID = ?",
+		"params": ["APPU_ID"]
+	}, {
+		"query": "DELETE FROM APP_USER_STS   WHERE APPU_ID = ?",
+		"params": ["APPU_ID"]
+	}, {
+		"query": "DELETE FROM APP_USERS WHERE U_ID = ? AND APP_ID = ?",
+		"params": ["U_ID"]
+	}, {
+		"query": "DELETE FROM APP_SYSTEM_TO_SYSTEM_ROLES WHERE APPSTS_ID = ?",
+		"params": ["APPSTS_ID"]
+	}, {
+		"query": "DELETE FROM APP_SYSTEM_TYPES WHERE APPST_ID = ?",
+		"params": ["APPST_ID"]
+	}, {
+		"query": "DELETE FROM APP_SYSTEM_TYPE_ROLES WHERE APPST_ID = ?",
+		"params": ["APPST_ID"]
+	}, {
+		"query": "DELETE FROM APP_SYSTEM_TO_SYSTEM WHERE APPSTS_ID = ?",
+		"params": ["APPSTS_ID"]
+	},  {
+		"query": "DELETE FROM APP_ROLES WHERE APP_ID = ?",
+		"params": ["APP_ID"]
+	}, {
+		"query": "DELETE FROM STP_COMMENTS WHERE APP_ID = ?",
+		"params": ["APP_ID"]
+	}, {
+		"query": "DELETE FROM APP_RPT_SHARING WHERE APP_ID = ? AND SHARING_MODE = ? AND SHARING_VALUE = ?",
+		"params": ["APP_ID","SHARING_MODE","SHARING_VALUE"]
+	}, {
+		"query": "DELETE FROM APPLICATIONS WHERE CLIENT_ID = ? AND IS_FRAMEWORK = 'N' AND APP_ID = ?",
+		"params": ["CLIENT_ID", "APP_ID"]
+	}],
+	"dep_cas": [{
+		"query": "DELETE FROM EX_GATEWAYS WHERE CLIENT_ID = ? AND APP_ID = ?",
+		"params": ["CLIENT_ID", "APP_ID"]
+	},{
+		"query": "DELETE FROM EX_SG_SETUP WHERE CLIENT_ID = ? AND APP_ID = ?",
+		"params": ["CLIENT_ID", "APP_ID"]
+	},{
+		"query": "DELETE FROM EX_SYSTEM WHERE CLIENT_ID = ? AND APP_ID = ?",
+		"params": ["CLIENT_ID", "APP_ID"]
+	},{
+		"query": "DELETE FROM EX_SYSTEM_GATEWAYS WHERE CLIENT_ID = ? AND APP_ID = ?",
+		"params": ["CLIENT_ID", "APP_ID"]
+	},{
+		"query": "DELETE FROM EX_FILE_FORMAT_GROUPS WHERE APP_ID = ?",
+		"params": ["APP_ID"]
+	},{
+		"query": "DELETE FROM APP_RPT_DEFINITIONS_INFO WHERE APP_ID = ?",
+		"params": ["APP_ID"]
+	},{
+		"query": "DELETE FROM DT_INFO WHERE APP_ID = ?",
+		"params": ["APP_ID"]
+	},{
+		"query": "DELETE FROM EVENT_CUSTOM_EXTENSIONS WHERE APP_ID = ?",
+		"params": ["APP_ID"]
+	},{
+		"query": "DELETE FROM MAPPING_INFO WHERE APP_ID = ?",
+		"params": ["APP_ID"]
+	},{
+		"query": "DELETE FROM WF_INFO WHERE APP_ID = ?",
+		"params": ["APP_ID"]
+	},{
+		"query": "DELETE FROM WF_MENU_INFO WHERE APP_ID = ?",
+		"params": ["APP_ID"]
+	},{
+		"query": "DELETE FROM WF_TEMPLATES WHERE APP_ID = ?",
+		"params": ["APP_ID"]
+	},{
+		"query": "DELETE FROM MAPPING_INFO_CHANGES WHERE CATEGORY = ?",
+		"params": ["CATEGORY"]
+	},{
+		"query": "DELETE FROM QRY_INFO WHERE APP_ID =? AND WFTPA_ID = ?",
+		"params": ["APP_ID", "WFTPA_ID"]
+	},{
+		"query": "DELETE FROM COMM_INFO WHERE APP_ID =? AND WFTPA_ID = ? ",
+		"params": ["APP_ID", "WFTPA_ID"]
+	},{
+		"query": "DELETE FROM WF_DTT_INFO WHERE APP_ID = ? AND WFTPA_ID =? AND UICG_CODE = ?",
+		"params": ["APP_ID", "WFTPA_ID", "UICG_CODE"]
+	},{
+		"query": "DELETE FROM UICG_INFO WHERE APP_ID = ? AND WFTPA_ID = ? AND UICG_CODE=? ",
+		"params": ["APP_ID", "WFTPA_ID", "UICG_CODE"]
+	},{
+		"query": "DELETE FROM DTT_INFO WHERE APP_ID =? AND DTT_CODE = ?",
+		"params": ["APP_ID","DTT_CODE"]
+	},{
+		"query": "DELETE FROM COMM_STATIC_ATTACHMENTS WHERE WFCA_ID = ?",
+		"params": ["WFCA_ID"]
+	}
+
+	],
+	"dev_cas": [{
+		"query": "DELETE FROM EVENT_CUSTOM_EXTENSIONS WHERE APP_ID = ?",
+		"params": ["APP_ID"]
+	},{
+		"query": "DELETE FROM EX_FILE_FORMAT_GROUPS WHERE APP_ID = ?",
+		"params": ["APP_ID"]
+	},{
+		"query": "DELETE FROM EX_GATEWAYS WHERE CLIENT_ID=? AND APP_ID = ?",
+		"params": ["CLIENT_ID","APP_ID"]
+	},{
+		"query": "DELETE FROM EX_SG_SETUP WHERE CLIENT_ID=? AND APP_ID = ?",
+		"params": ["CLIENT_ID","APP_ID"]
+	},{
+		"query": "DELETE FROM EX_SYSTEM WHERE CLIENT_ID = ? AND APP_ID = ?",
+		"params": ["CLIENT_ID","APP_ID"]
+	},{
+		"query": "DELETE FROM EX_SYSTEM_GATEWAYS WHERE CLIENT_ID = ? AND APP_ID = ?",
+		"params": ["CLIENT_ID","APP_ID"]
+	},{
+		"query": "DELETE FROM APP_RPT_DEFINITIONS WHERE APP_ID = ?",
+		"params": ["APP_ID"]
+	},{
+		"query": "DELETE FROM SCAN_SETTINGS WHERE APP_ID = ?",
+		"params": ["APP_ID"]
+	},{
+		"query": "DELETE FROM WFTPA_UICGC_VIEWMODE WHERE WFTPA_ID = ?",
+		"params": ["WFTPA_ID"]
+	},{
+		"query": "DELETE FROM WFTPA_EVENT_DATA WHERE WFTPA_ID = ?",
+		"params": ["WFTPA_ID"]
+	},{
+		"query": "DELETE FROM WFTPA_DTT_VIEW WHERE WFTPA_ID = ?",
+		"params": ["WFTPA_ID"]
+	},{
+		"query": "DELETE FROM WFTPA_DATA_SOURCE WHERE WFTPA_ID = ? AND APP_ID = ?",
+		"params": ["WFTPA_ID","APP_ID"]
+	},{
+		"query": "DELETE FROM WFT_PROCESS_STATUS WHERE APP_ID = ?",
+		"params": ["APP_ID"]
+	},{
+		"query": "DELETE FROM WF_TEMPLATES WHERE APP_ID = ?",
+		"params": ["APP_ID"]
+	},{
+		"query": "DELETE FROM WF_STATE_CRITERIA WHERE APP_ID = ?",
+		"params": ["APP_ID"]
+	},{
+		"query": "DELETE FROM WF_INFO WHERE APP_ID =  ?",
+		"params": ["APP_ID"]
+	},{
+		"query": "DELETE FROM UICTRL_DATA_SOURCE WHERE APP_ID = ?",
+		"params": ["APP_ID"]
+	},{
+		"query": "DELETE FROM SOLR_DTT_FIELDS WHERE APP_ID = ?",
+		"params": ["APP_ID"]
+	},{
+		"query": "DELETE FROM ROLE_MODULES WHERE APP_ID = ?",
+		"params": ["APP_ID"]
+	},{
+		"query": "DELETE FROM ENTITY_QUERY WHERE APP_ID = ?",
+		"params": ["APP_ID"]
+	},{
+		"query": "DELETE FROM DTT_VIEWS WHERE DTT_CODE = ?",
+		"params": ["DTT_CODE"]
+	},{
+		"query": "DELETE FROM DTT_ATTACHMENT_TEMPLATES WHERE DTT_CODE = ?",
+		"params": ["DTT_CODE"]
+	},{
+		"query": "DELETE FROM DT_TYPES WHERE DTT_CODE = ? ",
+		"params": ["DTT_CODE"]
+	},{
+		"query": "DELETE FROM DT_STATE_DIAGRAM WHERE APP_ID = ?",
+		"params": ["APP_ID"]
+	},{
+		"query": "DELETE FROM DATA_TEMPLATES WHERE DT_CODE = ?",
+		"params": ["DT_CODE"]
+	},{
+		"query": "DELETE FROM WF_COMM_MESSAGE_TEMPLATES WHERE WFCMT_ID = ?",
+		"params": ["WFCMT_ID"]
+	},{
+		"query": "DELETE FROM COMM_CATEGORY WHERE APP_ID = ?",
+		"params": ["APP_ID"]
+	},{
+		"query": "DELETE FROM AQM_WFTPA_DESIGNER_CHANGES WHERE APP_ID = ? AND WFTPA_ID = ?",
+		"params": ["APP_ID","WFTPA_ID"]
+	},{
+		"query": "DELETE FROM AQM_WFTPA_CONTROLS WHERE WFTPA_ID = ?",
+		"params": ["WFTPA_ID"]
+	},{
+		"query": "DELETE FROM AQM_DESIGNER_CHANGES WHERE CLIENT_ID = ? AND CODE = ?",
+		"params": ["CLIENT_ID", "CODE"]
+	},{
+		"query": "DELETE FROM AQM_AR_DESIGNER_CHANGES WHERE APP_REQ_ID = ?",
+		"params": ["APP_REQ_ID"]
+	},{
+		"query": "DELETE FROM APP_REQUIREMENTS WHERE APP_REQ_ID = ?",
+		"params": ["APP_REQ_ID"]
+	},{
+		"query": "DELETE FROM DATA_BINDINGS WHERE BINDING_CODE = ? AND DT_CODE = ?",
+		"params": ["BINDING_CODE","DT_CODE"]
+	},{
+		"query": "DELETE FROM DATA_SOURCE WHERE DS_CODE = ?",
+		"params": ["DS_CODE"]
+	}
+]
+}

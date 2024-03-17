@@ -1,0 +1,8 @@
+{
+  "name": "EmailScan",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "title EmailScan && node app.js"
+  }
+}

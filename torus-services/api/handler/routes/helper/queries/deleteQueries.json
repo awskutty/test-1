@@ -1,0 +1,6 @@
+{
+	"clt_cas": [{
+		"query": "DELETE FROM USER_SESSIONS WHERE U_ID = ?",
+		"params": ["U_ID"]
+	}]
+}

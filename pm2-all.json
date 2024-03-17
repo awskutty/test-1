@@ -1,0 +1,123 @@
+{
+	"apps": [{
+			"name": "authentication_1.0",
+			"script": "/home/torus/6.0/torus-services/api/authentication/app.js"
+		},
+		{
+			"name": "handler_1.0",
+			"script": "/home/torus/6.0/torus-services/api/handler/app.js"
+		},
+		{
+			"name": "minigoverner_1.0",
+			"script": "/home/torus/6.0/torus-services/api/minigoverner/app.js"
+		},
+		{
+			"name": "transaction_1.0",
+			"script": "/home/torus/6.0/torus-services/api/transaction/app.js"
+		},
+		{
+			"name": "scheduler_1.0",
+			"script": "/home/torus/6.0/torus-services/api/scheduler/app.js"
+		},
+		{
+			"name": "resource_1.0",
+			"script": "/home/torus/6.0/torus-services/api/resource/app.js"
+		},
+		{
+			"name": "report_1.0",
+			"script": "/home/torus/6.0/torus-services/api/report/app.js"
+		},
+		{
+			"name": "scan_1.0",
+			"script": "/home/torus/6.0/torus-services/api/scan/app.js"
+		},
+		{
+			"name": "communication_1.0",
+			"script": "/home/torus/6.0/torus-services/api/communication/app.js"
+		},
+		{
+			"name": "trandataproducer_1.0",
+			"script": "/home/torus/6.0/torus-services/bgprocess/producer/tran-dataproducer/app.js"
+		},
+		{
+			"name": "emailscan_1.0",
+			"script": "/home/torus/6.0/torus-services/bgprocess/consumer/emailscan/app.js"
+		},
+		{
+			"name": "atmtdataproducer_1.0",
+			"script": "/home/torus/6.0/torus-services/bgprocess/producer/atmt-dataproducer/app.js"
+		},
+		{
+			"name": "hstfxtabledataproducer_1.0",
+			"script": "/home/torus/6.0/torus-services/bgprocess/producer/fxtable-dataproducer/app.js"
+		},
+		{
+			"name": "exchange_1.0",
+			"script": "/home/torus/6.0/torus-services/api/exchange/app.js"
+		},
+		{
+			"name": "devopsservice_1.0",
+			"script": "/home/torus/6.0/torus-services/api/devopsservice/app.js"
+		},
+		{
+			"name": "validation_1.0",
+			"script": "/home/torus/6.0/torus-services/api/validation/app.js"
+		},
+		{
+			"name": "socket_1.0",
+			"script": "/home/torus/6.0/torus-services/bgprocess/consumer/socket/app.js"
+		},
+		{
+			"name": "prct-dataproducer_1.0",
+			"script": "/home/torus/6.0/torus-services/bgprocess/producer/prct-dataproducer/app.js"
+		},
+		{
+			"name": "analytics_1.0",
+			"script": "/home/torus/6.0/torus-services/api/analytics/app.js"
+		},
+		{
+			"name": "archival_1.0",
+			"script": "/home/torus/6.0/torus-services/api/archival/app.js"
+		},
+		{
+			"name": "audit_1.0",
+			"script": "/home/torus/6.0/torus-services/api/audit/app.js"
+		},
+		{
+			"name": "commprocessmsgsuccessconsumer_1.0",
+			"script": "/home/torus/6.0/torus-services/bgprocess/consumer/commprocessmsgsuccessconsumer/app.js"
+		},
+		{
+			"name": "commprocessmsgfailureconsumer_1.0",
+			"script": "/home/torus/6.0/torus-services/bgprocess/consumer/commprocessmsgfailureconsumer/app.js"
+		},
+		{
+			"name": "commmessagesenderconsumer_1.0",
+			"script": "/home/torus/6.0/torus-services/bgprocess/consumer/commmessagesenderconsumer/app.js"
+		},
+		{
+			"name": "commprocessdataconsumer_1.0",
+			"script": "/home/torus/6.0/torus-services/bgprocess/consumer/commprocessdataconsumer/app.js"
+		},
+		{
+			"name": "attachmentconsumer_1.0",
+			"script": "/home/torus/6.0/torus-services/bgprocess/consumer/attachmentconsumer/app.js"
+		},
+		{
+			"name": "tranversiondetailconsumer_1.0",
+			"script": "/home/torus/6.0/torus-services/bgprocess/consumer/tranversiondetailconsumer/app.js"
+		},
+		{
+			"name": "fxtranconsumer_1.0",
+			"script": "/home/torus/6.0/torus-services/bgprocess/consumer/fxtranconsumer/app.js"
+		},
+		{
+			"name": "tranjourneyconsumer_1.0",
+			"script": "/home/torus/6.0/torus-services/bgprocess/consumer/tranjourneyconsumer/app.js"
+		},		
+		{
+			"name": "wpotpconsumer_1.0",
+			"script": "/home/torus/6.0/torus-services/bgprocess/consumer/wp-otpconsumer/app.js"
+		}
+	]
+}

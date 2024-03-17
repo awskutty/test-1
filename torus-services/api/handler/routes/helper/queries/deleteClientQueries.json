@@ -1,0 +1,47 @@
+{
+	"clt_cas": [{
+		"query": "DELETE FROM CLIENT_SETUP WHERE CLIENT_ID = ?",
+		"params": ["CLIENT_ID"]
+	}, {
+		"query": "DELETE FROM CLUSTERS WHERE CLIENT_ID = ?",
+		"params": ["CLIENT_ID"]
+	}, {
+		"query": "DELETE FROM SYSTEM_TYPES WHERE CLIENT_ID = ?",
+		"params": ["CLIENT_ID"]
+	}, {
+		"query": "DELETE FROM SYSTEMS WHERE CLIENT_ID = ? AND ST_ID = ?",
+		"params": ["CLIENT_ID", "ST_ID"]
+	}, {
+		"query": "DELETE FROM USERS WHERE LOGIN_NAME = ?",
+		"params": ["LOGIN_NAME"]
+	}],
+	"dev_cas": [{
+		"query": "DELETE FROM CCI_DEPENDENCIES WHERE CLIENT_ID = ?",
+		"params": ["CLIENT_ID"]
+	},{
+		"query": "DELETE FROM CCI_PROJECTS WHERE CLIENT_ID = ?",
+		"params": ["CLIENT_ID"]
+	},{
+		"query": "DELETE FROM CCI_PROJECT_ITEMS WHERE PROJECT_CODE = ? ",
+		"params": ["PROJECT_CODE"]
+	},{
+		"query": "DELETE FROM CUSTOM_CODE_INTEGRATIONS WHERE PROJECT_CODE = ?",
+		"params": ["PROJECT_CODE"]
+	},{
+		"query": "DELETE FROM CCI_SNIPPETS  WHERE CLIENT_ID = ?",
+		"params": ["CLIENT_ID"]
+	},{
+		"query": "DELETE FROM DEPLOYMENT_SERVICE_GROUPS WHERE CLIENT_ID =?",
+		"params": ["CLIENT_ID"]
+	},{
+		"query": "DELETE FROM DEPLOYMENT_TEMPLATES WHERE CLIENT_ID =?",
+		"params": ["CLIENT_ID"]
+	},{
+		"query": "DELETE FROM UI_COMPONENT_GROUP WHERE UICG_CODE = ?  AND CLIENT_ID = ?",
+		"params": ["UICG_CODE","CLIENT_ID"]
+	},{
+		"query": "DELETE FROM UICG_DTT_VIEW WHERE UICG_DTTV_ID = ?",
+		"params": ["UICG_DTTV_ID"]
+	}
+]
+}

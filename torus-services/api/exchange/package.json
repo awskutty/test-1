@@ -1,0 +1,8 @@
+{
+  "name": "exchange",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "title exchange && node --expose-gc app.js"
+  }
+}

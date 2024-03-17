@@ -1,0 +1,87 @@
+{
+	"requires": [{
+		"query": "SELECT APP_ID FROM APPLICATIONS WHERE CLIENT_ID = ?",
+		"params": ["CLIENT_ID"],
+		"restrict": "APP_ID"
+	}, {
+		"query": "SELECT TENANT_ID FROM TENANTS WHERE CLIENT_ID = ?",
+		"params": ["CLIENT_ID"],
+		"restrict": "TENANT_ID"
+	}],
+	"dev_cas": [{
+		"query": "SELECT ARPTD_ID FROM APP_RPT_DEFINITIONS WHERE APP_ID = ? ",
+		"params": ["APP_ID"]
+	}, {
+		"query": "SELECT DTT_CODE FROM DT_TYPES WHERE APP_ID = ? ALLOW FILTERING",
+		"params": ["APP_ID"]
+	}, {
+		"query": "SELECT UICG_CODE FROM UI_COMPONENT_GROUP WHERE CLIENT_ID = ? ALLOW FILTERING",
+		"params": ["CLIENT_ID"]
+	}, {
+		"query": "SELECT WFTPA_ID FROM WF_INFO WHERE APP_ID = ?",
+		"params": ["APP_ID"]
+	}, {
+		"query": "SELECT APP_REQ_ID FROM APP_REQUIREMENTS WHERE APP_ID = ? ALLOW FILTERING",
+		"params": ["APP_ID"]
+	}, {
+		"query": "SELECT CODE FROM AQM_DESIGNER_CHANGES WHERE APP_ID = ? ALLOW FILTERING",
+		"params": ["APP_ID"]
+	}, {
+		"query": "SELECT DT_CODE FROM DATA_TEMPLATES WHERE APP_ID = ? ALLOW FILTERING",
+		"params": ["APP_ID"]
+	}, {
+		"query": "SELECT WFCMT_ID FROM WF_COMM_MESSAGE_TEMPLATES WHERE WFTPA_ID = ? ALLOW FILTERING",
+		"params": ["WFTPA_ID"]
+	}, {
+		"query": "SELECT PROJECT_CODE FROM CCI_PROJECTS WHERE CLIENT_ID = ?",
+		"params": ["CLIENT_ID"]
+	}, {
+		"query": "SELECT UICG_DTTV_ID FROM UICG_DTT_VIEW WHERE UICG_CODE = ?  ALLOW FILTERING",
+		"params": ["UICG_CODE"]
+	}, {
+		"query": "SELECT BINDING_CODE FROM DATA_BINDINGS WHERE DT_CODE = ? ALLOW FILTERING",
+		"params": ["DT_CODE"]
+	}, {
+		"query": "SELECT DS_CODE FROM UICTRL_DATA_SOURCE WHERE APP_ID = ?",
+		"params": ["APP_ID"]
+	}],
+	"clt_cas": [{
+		"query": "SELECT ST_ID FROM SYSTEM_TYPES WHERE CLIENT_ID = ?",
+		"params": ["CLIENT_ID"]
+	}, {
+		"query": "SELECT LOGIN_NAME FROM USERS WHERE CLIENT_ID = ? ALLOW FILTERING",
+		"params": ["CLIENT_ID"]
+	}, {
+		"query": "SELECT CLUSTER_CODE FROM CLUSTERS WHERE CLIENT_ID = ?",
+		"params": ["CLIENT_ID"]
+	}, {
+		"query": "SELECT APP_ID FROM APP_TENANTS WHERE TENANT_ID = ? ALLOW FILTERING",
+		"params": ["TENANT_ID"],
+		"restrict": "APP_ID"
+	}, {
+		"query": "SELECT APPST_ID FROM APP_SYSTEM_TYPES WHERE APP_ID = ? ALLOW FILTERING",
+		"params": ["APP_ID"]
+	}, {
+		"query": "SELECT APPSTS_ID, STS_ID FROM APP_SYSTEM_TO_SYSTEM WHERE APP_ID = ? ALLOW FILTERING",
+		"params": ["APP_ID"]
+	}, {
+		"query": "SELECT U_ID, APPU_ID FROM APP_USERS WHERE APP_ID = ? ALLOW FILTERING",
+		"params": ["APP_ID"]
+	}, {
+		"query": "SELECT SHARING_MODE, SHARING_VALUE FROM APP_RPT_SHARING WHERE ARPTD_ID = ? ALLOW FILTERING",
+		"params": ["ARPTD_ID"]
+	}, {
+		"query": "SELECT TENANT_NAME FROM TENANTS WHERE CLIENT_ID = ?",
+		"params": ["CLIENT_ID"]
+	}],
+	"dep_cas": [{
+		"query": "SELECT CATEGORY FROM MAPPING_INFO WHERE APP_ID = ?",
+		"params": ["APP_ID"]
+	}, {
+		"query": "SELECT COMMMT_CODE FROM COMM_INFO WHERE APP_ID = ? AND WFTPA_ID = ?",
+		"params": ["APP_ID", "WFTPA_ID"]
+	}, {
+		"query": "SELECT WFCA_ID FROM COMM_STATIC_ATTACHMENTS WHERE COMMMT_CODE = ? ALLOW FILTERING",
+		"params": ["COMMMT_CODE"]
+	}]
+}

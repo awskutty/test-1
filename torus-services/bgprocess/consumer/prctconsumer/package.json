@@ -1,0 +1,8 @@
+{
+	"name": "prctconsumer-Consumer",
+	"version": "0.0.0",
+	"private": true,
+	"scripts": {
+		"start": "title prctconsumer-Consumer&& node app.js"
+	}
+}

@@ -1,0 +1,8 @@
+{
+	"name": "Attachment-Consumer",
+	"version": "0.0.0",
+	"private": true,
+	"scripts": {
+		"start": "title Attachment-Consumer&& node app.js"
+	}
+}

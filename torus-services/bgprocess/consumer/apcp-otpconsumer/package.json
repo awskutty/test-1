@@ -1,0 +1,8 @@
+{
+  "name": "MailSMSConsumer",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "title APCP-OTPConsumer&& node app.js"
+  }
+}

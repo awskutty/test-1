@@ -1,0 +1,510 @@
+TypeError: Cannot read property 'FILE_NAME_PATTERN' of undefined
+  at processFileFormat (d:\torus\6.0\development\backend\nodejs\torus-services\api\exchange\routes\helper\ExchangeEngine.js:178:37)
+  at Object.ExchangeEngine (d:\torus\6.0\development\backend\nodejs\torus-services\api\exchange\routes\helper\ExchangeEngine.js:30:29)
+  at d:\torus\6.0\development\backend\nodejs\torus-services\api\exchange\routes\helper\ExchangeHelper.js:42:32
+  at d:\torus\6.0\development\backend\nodejs\torus-services\api\exchange\routes\helper\ExchangeHelper.js:232:21
+  at getProcessedDataFromCustomCode (d:\torus\6.0\development\backend\nodejs\torus-services\api\exchange\routes\helper\ExchangeHelper.js:280:9)
+  at d:\torus\6.0\development\backend\nodejs\torus-services\api\exchange\routes\helper\ExchangeHelper.js:218:17
+  at Request._callback (d:\torus\6.0\development\backend\nodejs\torus-services\api\exchange\routes\helper\ExchangeHelper.js:729:13)
+  at Request.init.self.callback (d:\torus\6.0\development\backend\nodejs\node_modules\request\request.js:200:22)
+  at emitTwo (events.js:87:13)
+  at Request.emit (events.js:172:7)
+  at Request.<anonymous> (d:\torus\6.0\development\backend\nodejs\node_modules\request\request.js:1067:10)
+  at emitOne (events.js:82:20)
+  at Request.emit (events.js:169:7)
+  at IncomingMessage.<anonymous> (d:\torus\6.0\development\backend\nodejs\node_modules\request\request.js:988:12)
+  at emitNone (events.js:72:20)
+  at IncomingMessage.emit (events.js:166:7)
+  at endReadableNT (_stream_readable.js:913:12)
+  at nextTickCallbackWith2Args (node.js:442:9)
+  at process._tickDomainCallback (node.js:397:17)
+TypeError: Cannot read property 'FILE_NAME_PATTERN' of undefined
+  at processFileFormat (d:\torus\6.0\development\backend\nodejs\torus-services\api\exchange\routes\helper\ExchangeEngine.js:178:37)
+  at Object.ExchangeEngine (d:\torus\6.0\development\backend\nodejs\torus-services\api\exchange\routes\helper\ExchangeEngine.js:30:29)
+  at d:\torus\6.0\development\backend\nodejs\torus-services\api\exchange\routes\helper\ExchangeHelper.js:42:32
+  at d:\torus\6.0\development\backend\nodejs\torus-services\api\exchange\routes\helper\ExchangeHelper.js:232:21
+  at getProcessedDataFromCustomCode (d:\torus\6.0\development\backend\nodejs\torus-services\api\exchange\routes\helper\ExchangeHelper.js:280:9)
+  at d:\torus\6.0\development\backend\nodejs\torus-services\api\exchange\routes\helper\ExchangeHelper.js:218:17
+  at Request._callback (d:\torus\6.0\development\backend\nodejs\torus-services\api\exchange\routes\helper\ExchangeHelper.js:729:13)
+  at Request.init.self.callback (d:\torus\6.0\development\backend\nodejs\node_modules\request\request.js:200:22)
+  at emitTwo (events.js:87:13)
+  at Request.emit (events.js:172:7)
+  at Request.<anonymous> (d:\torus\6.0\development\backend\nodejs\node_modules\request\request.js:1067:10)
+  at emitOne (events.js:82:20)
+  at Request.emit (events.js:169:7)
+  at IncomingMessage.<anonymous> (d:\torus\6.0\development\backend\nodejs\node_modules\request\request.js:988:12)
+  at emitNone (events.js:72:20)
+  at IncomingMessage.emit (events.js:166:7)
+  at endReadableNT (_stream_readable.js:913:12)
+  at nextTickCallbackWith2Args (node.js:442:9)
+  at process._tickDomainCallback (node.js:397:17)
+TypeError: Cannot read property 'FILE_NAME_PATTERN' of undefined
+  at processFileFormat (d:\torus\6.0\development\backend\nodejs\torus-services\api\exchange\routes\helper\ExchangeEngine.js:178:37)
+  at Object.ExchangeEngine (d:\torus\6.0\development\backend\nodejs\torus-services\api\exchange\routes\helper\ExchangeEngine.js:30:29)
+  at d:\torus\6.0\development\backend\nodejs\torus-services\api\exchange\routes\helper\ExchangeHelper.js:42:32
+  at d:\torus\6.0\development\backend\nodejs\torus-services\api\exchange\routes\helper\ExchangeHelper.js:232:21
+  at getProcessedDataFromCustomCode (d:\torus\6.0\development\backend\nodejs\torus-services\api\exchange\routes\helper\ExchangeHelper.js:280:9)
+  at d:\torus\6.0\development\backend\nodejs\torus-services\api\exchange\routes\helper\ExchangeHelper.js:218:17
+  at Request._callback (d:\torus\6.0\development\backend\nodejs\torus-services\api\exchange\routes\helper\ExchangeHelper.js:729:13)
+  at Request.init.self.callback (d:\torus\6.0\development\backend\nodejs\node_modules\request\request.js:200:22)
+  at emitTwo (events.js:87:13)
+  at Request.emit (events.js:172:7)
+  at Request.<anonymous> (d:\torus\6.0\development\backend\nodejs\node_modules\request\request.js:1067:10)
+  at emitOne (events.js:82:20)
+  at Request.emit (events.js:169:7)
+  at IncomingMessage.<anonymous> (d:\torus\6.0\development\backend\nodejs\node_modules\request\request.js:988:12)
+  at emitNone (events.js:72:20)
+  at IncomingMessage.emit (events.js:166:7)
+  at endReadableNT (_stream_readable.js:913:12)
+  at nextTickCallbackWith2Args (node.js:442:9)
+  at process._tickDomainCallback (node.js:397:17)
+TypeError: Cannot read property 'FILE_NAME_PATTERN' of undefined
+  at processFileFormat (d:\torus\6.0\development\backend\nodejs\torus-services\api\exchange\routes\helper\ExchangeEngine.js:178:37)
+  at Object.ExchangeEngine (d:\torus\6.0\development\backend\nodejs\torus-services\api\exchange\routes\helper\ExchangeEngine.js:30:29)
+  at d:\torus\6.0\development\backend\nodejs\torus-services\api\exchange\routes\helper\ExchangeHelper.js:42:32
+  at d:\torus\6.0\development\backend\nodejs\torus-services\api\exchange\routes\helper\ExchangeHelper.js:232:21
+  at getProcessedDataFromCustomCode (d:\torus\6.0\development\backend\nodejs\torus-services\api\exchange\routes\helper\ExchangeHelper.js:280:9)
+  at d:\torus\6.0\development\backend\nodejs\torus-services\api\exchange\routes\helper\ExchangeHelper.js:218:17
+  at Request._callback (d:\torus\6.0\development\backend\nodejs\torus-services\api\exchange\routes\helper\ExchangeHelper.js:729:13)
+  at Request.init.self.callback (d:\torus\6.0\development\backend\nodejs\node_modules\request\request.js:200:22)
+  at emitTwo (events.js:87:13)
+  at Request.emit (events.js:172:7)
+  at Request.<anonymous> (d:\torus\6.0\development\backend\nodejs\node_modules\request\request.js:1067:10)
+  at emitOne (events.js:82:20)
+  at Request.emit (events.js:169:7)
+  at IncomingMessage.<anonymous> (d:\torus\6.0\development\backend\nodejs\node_modules\request\request.js:988:12)
+  at emitNone (events.js:72:20)
+  at IncomingMessage.emit (events.js:166:7)
+  at endReadableNT (_stream_readable.js:913:12)
+  at nextTickCallbackWith2Args (node.js:442:9)
+  at process._tickDomainCallback (node.js:397:17)
+TypeError: Cannot read property 'FILE_NAME_PATTERN' of undefined
+  at processFileFormat (d:\torus\6.0\development\backend\nodejs\torus-services\api\exchange\routes\helper\ExchangeEngine.js:178:37)
+  at Object.ExchangeEngine (d:\torus\6.0\development\backend\nodejs\torus-services\api\exchange\routes\helper\ExchangeEngine.js:30:29)
+  at d:\torus\6.0\development\backend\nodejs\torus-services\api\exchange\routes\helper\ExchangeHelper.js:42:32
+  at d:\torus\6.0\development\backend\nodejs\torus-services\api\exchange\routes\helper\ExchangeHelper.js:232:21
+  at getProcessedDataFromCustomCode (d:\torus\6.0\development\backend\nodejs\torus-services\api\exchange\routes\helper\ExchangeHelper.js:280:9)
+  at d:\torus\6.0\development\backend\nodejs\torus-services\api\exchange\routes\helper\ExchangeHelper.js:218:17
+  at Request._callback (d:\torus\6.0\development\backend\nodejs\torus-services\api\exchange\routes\helper\ExchangeHelper.js:729:13)
+  at Request.init.self.callback (d:\torus\6.0\development\backend\nodejs\node_modules\request\request.js:200:22)
+  at emitTwo (events.js:87:13)
+  at Request.emit (events.js:172:7)
+  at Request.<anonymous> (d:\torus\6.0\development\backend\nodejs\node_modules\request\request.js:1067:10)
+  at emitOne (events.js:82:20)
+  at Request.emit (events.js:169:7)
+  at IncomingMessage.<anonymous> (d:\torus\6.0\development\backend\nodejs\node_modules\request\request.js:988:12)
+  at emitNone (events.js:72:20)
+  at IncomingMessage.emit (events.js:166:7)
+  at endReadableNT (_stream_readable.js:913:12)
+  at nextTickCallbackWith2Args (node.js:442:9)
+  at process._tickDomainCallback (node.js:397:17)
+TypeError: Cannot read property 'FILE_NAME_PATTERN' of undefined
+  at processFileFormat (d:\torus\6.0\development\backend\nodejs\torus-services\api\exchange\routes\helper\ExchangeEngine.js:178:37)
+  at Object.ExchangeEngine (d:\torus\6.0\development\backend\nodejs\torus-services\api\exchange\routes\helper\ExchangeEngine.js:30:29)
+  at d:\torus\6.0\development\backend\nodejs\torus-services\api\exchange\routes\helper\ExchangeHelper.js:42:32
+  at d:\torus\6.0\development\backend\nodejs\torus-services\api\exchange\routes\helper\ExchangeHelper.js:232:21
+  at getProcessedDataFromCustomCode (d:\torus\6.0\development\backend\nodejs\torus-services\api\exchange\routes\helper\ExchangeHelper.js:280:9)
+  at d:\torus\6.0\development\backend\nodejs\torus-services\api\exchange\routes\helper\ExchangeHelper.js:218:17
+  at Request._callback (d:\torus\6.0\development\backend\nodejs\torus-services\api\exchange\routes\helper\ExchangeHelper.js:729:13)
+  at Request.init.self.callback (d:\torus\6.0\development\backend\nodejs\node_modules\request\request.js:200:22)
+  at emitTwo (events.js:87:13)
+  at Request.emit (events.js:172:7)
+  at Request.<anonymous> (d:\torus\6.0\development\backend\nodejs\node_modules\request\request.js:1067:10)
+  at emitOne (events.js:82:20)
+  at Request.emit (events.js:169:7)
+  at IncomingMessage.<anonymous> (d:\torus\6.0\development\backend\nodejs\node_modules\request\request.js:988:12)
+  at emitNone (events.js:72:20)
+  at IncomingMessage.emit (events.js:166:7)
+  at endReadableNT (_stream_readable.js:913:12)
+  at nextTickCallbackWith2Args (node.js:442:9)
+  at process._tickDomainCallback (node.js:397:17)
+TypeError: Cannot read property 'FILE_NAME_PATTERN' of undefined
+  at processFileFormat (d:\torus\6.0\development\backend\nodejs\torus-services\api\exchange\routes\helper\ExchangeEngine.js:178:37)
+  at Object.ExchangeEngine (d:\torus\6.0\development\backend\nodejs\torus-services\api\exchange\routes\helper\ExchangeEngine.js:30:29)
+  at d:\torus\6.0\development\backend\nodejs\torus-services\api\exchange\routes\helper\ExchangeHelper.js:42:32
+  at d:\torus\6.0\development\backend\nodejs\torus-services\api\exchange\routes\helper\ExchangeHelper.js:232:21
+  at getProcessedDataFromCustomCode (d:\torus\6.0\development\backend\nodejs\torus-services\api\exchange\routes\helper\ExchangeHelper.js:280:9)
+  at d:\torus\6.0\development\backend\nodejs\torus-services\api\exchange\routes\helper\ExchangeHelper.js:218:17
+  at Request._callback (d:\torus\6.0\development\backend\nodejs\torus-services\api\exchange\routes\helper\ExchangeHelper.js:729:13)
+  at Request.init.self.callback (d:\torus\6.0\development\backend\nodejs\node_modules\request\request.js:200:22)
+  at emitTwo (events.js:87:13)
+  at Request.emit (events.js:172:7)
+  at Request.<anonymous> (d:\torus\6.0\development\backend\nodejs\node_modules\request\request.js:1067:10)
+  at emitOne (events.js:82:20)
+  at Request.emit (events.js:169:7)
+  at IncomingMessage.<anonymous> (d:\torus\6.0\development\backend\nodejs\node_modules\request\request.js:988:12)
+  at emitNone (events.js:72:20)
+  at IncomingMessage.emit (events.js:166:7)
+  at endReadableNT (_stream_readable.js:913:12)
+  at nextTickCallbackWith2Args (node.js:442:9)
+  at process._tickDomainCallback (node.js:397:17)
+TypeError: Cannot read property 'FILE_NAME_PATTERN' of undefined
+  at processFileFormat (d:\torus\6.0\development\backend\nodejs\torus-services\api\exchange\routes\helper\ExchangeEngine.js:178:37)
+  at Object.ExchangeEngine (d:\torus\6.0\development\backend\nodejs\torus-services\api\exchange\routes\helper\ExchangeEngine.js:30:29)
+  at d:\torus\6.0\development\backend\nodejs\torus-services\api\exchange\routes\helper\ExchangeHelper.js:42:32
+  at d:\torus\6.0\development\backend\nodejs\torus-services\api\exchange\routes\helper\ExchangeHelper.js:232:21
+  at getProcessedDataFromCustomCode (d:\torus\6.0\development\backend\nodejs\torus-services\api\exchange\routes\helper\ExchangeHelper.js:280:9)
+  at d:\torus\6.0\development\backend\nodejs\torus-services\api\exchange\routes\helper\ExchangeHelper.js:218:17
+  at Request._callback (d:\torus\6.0\development\backend\nodejs\torus-services\api\exchange\routes\helper\ExchangeHelper.js:729:13)
+  at Request.init.self.callback (d:\torus\6.0\development\backend\nodejs\node_modules\request\request.js:200:22)
+  at emitTwo (events.js:87:13)
+  at Request.emit (events.js:172:7)
+  at Request.<anonymous> (d:\torus\6.0\development\backend\nodejs\node_modules\request\request.js:1067:10)
+  at emitOne (events.js:82:20)
+  at Request.emit (events.js:169:7)
+  at IncomingMessage.<anonymous> (d:\torus\6.0\development\backend\nodejs\node_modules\request\request.js:988:12)
+  at emitNone (events.js:72:20)
+  at IncomingMessage.emit (events.js:166:7)
+  at endReadableNT (_stream_readable.js:913:12)
+  at nextTickCallbackWith2Args (node.js:442:9)
+  at process._tickDomainCallback (node.js:397:17)
+TypeError: Cannot read property 'FILE_NAME_PATTERN' of undefined
+  at processFileFormat (d:\torus\6.0\development\backend\nodejs\torus-services\api\exchange\routes\helper\ExchangeEngine.js:178:37)
+  at Object.ExchangeEngine (d:\torus\6.0\development\backend\nodejs\torus-services\api\exchange\routes\helper\ExchangeEngine.js:30:29)
+  at d:\torus\6.0\development\backend\nodejs\torus-services\api\exchange\routes\helper\ExchangeHelper.js:42:32
+  at d:\torus\6.0\development\backend\nodejs\torus-services\api\exchange\routes\helper\ExchangeHelper.js:232:21
+  at getProcessedDataFromCustomCode (d:\torus\6.0\development\backend\nodejs\torus-services\api\exchange\routes\helper\ExchangeHelper.js:280:9)
+  at d:\torus\6.0\development\backend\nodejs\torus-services\api\exchange\routes\helper\ExchangeHelper.js:218:17
+  at Request._callback (d:\torus\6.0\development\backend\nodejs\torus-services\api\exchange\routes\helper\ExchangeHelper.js:729:13)
+  at Request.init.self.callback (d:\torus\6.0\development\backend\nodejs\node_modules\request\request.js:200:22)
+  at emitTwo (events.js:87:13)
+  at Request.emit (events.js:172:7)
+  at Request.<anonymous> (d:\torus\6.0\development\backend\nodejs\node_modules\request\request.js:1067:10)
+  at emitOne (events.js:82:20)
+  at Request.emit (events.js:169:7)
+  at IncomingMessage.<anonymous> (d:\torus\6.0\development\backend\nodejs\node_modules\request\request.js:988:12)
+  at emitNone (events.js:72:20)
+  at IncomingMessage.emit (events.js:166:7)
+  at endReadableNT (_stream_readable.js:913:12)
+  at nextTickCallbackWith2Args (node.js:442:9)
+  at process._tickDomainCallback (node.js:397:17)
+TypeError: Cannot read property 'FILE_NAME_PATTERN' of undefined
+  at processFileFormat (d:\torus\6.0\development\backend\nodejs\torus-services\api\exchange\routes\helper\ExchangeEngine.js:178:37)
+  at Object.ExchangeEngine (d:\torus\6.0\development\backend\nodejs\torus-services\api\exchange\routes\helper\ExchangeEngine.js:30:29)
+  at d:\torus\6.0\development\backend\nodejs\torus-services\api\exchange\routes\helper\ExchangeHelper.js:42:32
+  at d:\torus\6.0\development\backend\nodejs\torus-services\api\exchange\routes\helper\ExchangeHelper.js:232:21
+  at getProcessedDataFromCustomCode (d:\torus\6.0\development\backend\nodejs\torus-services\api\exchange\routes\helper\ExchangeHelper.js:280:9)
+  at d:\torus\6.0\development\backend\nodejs\torus-services\api\exchange\routes\helper\ExchangeHelper.js:218:17
+  at Request._callback (d:\torus\6.0\development\backend\nodejs\torus-services\api\exchange\routes\helper\ExchangeHelper.js:729:13)
+  at Request.init.self.callback (d:\torus\6.0\development\backend\nodejs\node_modules\request\request.js:200:22)
+  at emitTwo (events.js:87:13)
+  at Request.emit (events.js:172:7)
+  at Request.<anonymous> (d:\torus\6.0\development\backend\nodejs\node_modules\request\request.js:1067:10)
+  at emitOne (events.js:82:20)
+  at Request.emit (events.js:169:7)
+  at IncomingMessage.<anonymous> (d:\torus\6.0\development\backend\nodejs\node_modules\request\request.js:988:12)
+  at emitNone (events.js:72:20)
+  at IncomingMessage.emit (events.js:166:7)
+  at endReadableNT (_stream_readable.js:913:12)
+  at nextTickCallbackWith2Args (node.js:442:9)
+  at process._tickDomainCallback (node.js:397:17)
+TypeError: Cannot read property 'FILE_NAME_PATTERN' of undefined
+  at processFileFormat (d:\torus\6.0\development\backend\nodejs\torus-services\api\exchange\routes\helper\ExchangeEngine.js:178:37)
+  at Object.ExchangeEngine (d:\torus\6.0\development\backend\nodejs\torus-services\api\exchange\routes\helper\ExchangeEngine.js:30:29)
+  at d:\torus\6.0\development\backend\nodejs\torus-services\api\exchange\routes\helper\ExchangeHelper.js:42:32
+  at d:\torus\6.0\development\backend\nodejs\torus-services\api\exchange\routes\helper\ExchangeHelper.js:232:21
+  at getProcessedDataFromCustomCode (d:\torus\6.0\development\backend\nodejs\torus-services\api\exchange\routes\helper\ExchangeHelper.js:280:9)
+  at d:\torus\6.0\development\backend\nodejs\torus-services\api\exchange\routes\helper\ExchangeHelper.js:218:17
+  at Request._callback (d:\torus\6.0\development\backend\nodejs\torus-services\api\exchange\routes\helper\ExchangeHelper.js:729:13)
+  at Request.init.self.callback (d:\torus\6.0\development\backend\nodejs\node_modules\request\request.js:200:22)
+  at emitTwo (events.js:87:13)
+  at Request.emit (events.js:172:7)
+  at Request.<anonymous> (d:\torus\6.0\development\backend\nodejs\node_modules\request\request.js:1067:10)
+  at emitOne (events.js:82:20)
+  at Request.emit (events.js:169:7)
+  at IncomingMessage.<anonymous> (d:\torus\6.0\development\backend\nodejs\node_modules\request\request.js:988:12)
+  at emitNone (events.js:72:20)
+  at IncomingMessage.emit (events.js:166:7)
+  at endReadableNT (_stream_readable.js:913:12)
+  at nextTickCallbackWith2Args (node.js:442:9)
+  at process._tickDomainCallback (node.js:397:17)
+TypeError: Cannot read property 'FILE_NAME_PATTERN' of undefined
+  at processFileFormat (d:\torus\6.0\development\backend\nodejs\torus-services\api\exchange\routes\helper\ExchangeEngine.js:178:37)
+  at Object.ExchangeEngine (d:\torus\6.0\development\backend\nodejs\torus-services\api\exchange\routes\helper\ExchangeEngine.js:30:29)
+  at d:\torus\6.0\development\backend\nodejs\torus-services\api\exchange\routes\helper\ExchangeHelper.js:42:32
+  at d:\torus\6.0\development\backend\nodejs\torus-services\api\exchange\routes\helper\ExchangeHelper.js:232:21
+  at getProcessedDataFromCustomCode (d:\torus\6.0\development\backend\nodejs\torus-services\api\exchange\routes\helper\ExchangeHelper.js:280:9)
+  at d:\torus\6.0\development\backend\nodejs\torus-services\api\exchange\routes\helper\ExchangeHelper.js:218:17
+  at Request._callback (d:\torus\6.0\development\backend\nodejs\torus-services\api\exchange\routes\helper\ExchangeHelper.js:729:13)
+  at Request.init.self.callback (d:\torus\6.0\development\backend\nodejs\node_modules\request\request.js:200:22)
+  at emitTwo (events.js:87:13)
+  at Request.emit (events.js:172:7)
+  at Request.<anonymous> (d:\torus\6.0\development\backend\nodejs\node_modules\request\request.js:1067:10)
+  at emitOne (events.js:82:20)
+  at Request.emit (events.js:169:7)
+  at IncomingMessage.<anonymous> (d:\torus\6.0\development\backend\nodejs\node_modules\request\request.js:988:12)
+  at emitNone (events.js:72:20)
+  at IncomingMessage.emit (events.js:166:7)
+  at endReadableNT (_stream_readable.js:913:12)
+  at nextTickCallbackWith2Args (node.js:442:9)
+  at process._tickDomainCallback (node.js:397:17)
+TypeError: Cannot read property 'FILE_NAME_PATTERN' of undefined
+  at processFileFormat (d:\torus\6.0\development\backend\nodejs\torus-services\api\exchange\routes\helper\ExchangeEngine.js:178:37)
+  at Object.ExchangeEngine (d:\torus\6.0\development\backend\nodejs\torus-services\api\exchange\routes\helper\ExchangeEngine.js:30:29)
+  at d:\torus\6.0\development\backend\nodejs\torus-services\api\exchange\routes\helper\ExchangeHelper.js:42:32
+  at d:\torus\6.0\development\backend\nodejs\torus-services\api\exchange\routes\helper\ExchangeHelper.js:232:21
+  at getProcessedDataFromCustomCode (d:\torus\6.0\development\backend\nodejs\torus-services\api\exchange\routes\helper\ExchangeHelper.js:280:9)
+  at d:\torus\6.0\development\backend\nodejs\torus-services\api\exchange\routes\helper\ExchangeHelper.js:218:17
+  at Request._callback (d:\torus\6.0\development\backend\nodejs\torus-services\api\exchange\routes\helper\ExchangeHelper.js:729:13)
+  at Request.init.self.callback (d:\torus\6.0\development\backend\nodejs\node_modules\request\request.js:200:22)
+  at emitTwo (events.js:87:13)
+  at Request.emit (events.js:172:7)
+  at Request.<anonymous> (d:\torus\6.0\development\backend\nodejs\node_modules\request\request.js:1067:10)
+  at emitOne (events.js:82:20)
+  at Request.emit (events.js:169:7)
+  at IncomingMessage.<anonymous> (d:\torus\6.0\development\backend\nodejs\node_modules\request\request.js:988:12)
+  at emitNone (events.js:72:20)
+  at IncomingMessage.emit (events.js:166:7)
+  at endReadableNT (_stream_readable.js:913:12)
+  at nextTickCallbackWith2Args (node.js:442:9)
+  at process._tickDomainCallback (node.js:397:17)
+ReferenceError: reqobj is not defined
+  at async.series.ex_files_arr.FILE_NAME (d:\torus\6.0\development\backend\nodejs\torus-services\api\exchange\routes\helper\ExchangeHelper.js:532:30)
+  at d:\torus\6.0\development\backend\nodejs\node_modules\async\lib\async.js:718:13
+  at iterate (d:\torus\6.0\development\backend\nodejs\node_modules\async\lib\async.js:262:13)
+  at async.forEachOfSeries.async.eachOfSeries (d:\torus\6.0\development\backend\nodejs\node_modules\async\lib\async.js:281:9)
+  at _parallel (d:\torus\6.0\development\backend\nodejs\node_modules\async\lib\async.js:717:9)
+  at Object.async.series (d:\torus\6.0\development\backend\nodejs\node_modules\async\lib\async.js:739:9)
+  at updateExchangeFileInfo (d:\torus\6.0\development\backend\nodejs\torus-services\api\exchange\routes\helper\ExchangeHelper.js:527:11)
+  at d:\torus\6.0\development\backend\nodejs\torus-services\api\exchange\routes\helper\ExchangeHelper.js:44:25
+  at d:\torus\6.0\development\backend\nodejs\torus-services\api\exchange\routes\helper\ExchangeEngine.js:63:21
+  at d:\torus\6.0\development\backend\nodejs\torus-services\api\exchange\routes\adapter\TextAdapter.js:55:13
+  at fs.js:1134:7
+  at FSReqWrap.oncomplete (fs.js:82:15)
+ReferenceError: reqobj is not defined
+  at async.series.ex_files_arr.FILE_NAME (d:\torus\6.0\development\backend\nodejs\torus-services\api\exchange\routes\helper\ExchangeHelper.js:532:30)
+  at d:\torus\6.0\development\backend\nodejs\node_modules\async\lib\async.js:718:13
+  at iterate (d:\torus\6.0\development\backend\nodejs\node_modules\async\lib\async.js:262:13)
+  at async.forEachOfSeries.async.eachOfSeries (d:\torus\6.0\development\backend\nodejs\node_modules\async\lib\async.js:281:9)
+  at _parallel (d:\torus\6.0\development\backend\nodejs\node_modules\async\lib\async.js:717:9)
+  at Object.async.series (d:\torus\6.0\development\backend\nodejs\node_modules\async\lib\async.js:739:9)
+  at updateExchangeFileInfo (d:\torus\6.0\development\backend\nodejs\torus-services\api\exchange\routes\helper\ExchangeHelper.js:527:11)
+  at d:\torus\6.0\development\backend\nodejs\torus-services\api\exchange\routes\helper\ExchangeHelper.js:44:25
+  at d:\torus\6.0\development\backend\nodejs\torus-services\api\exchange\routes\helper\ExchangeEngine.js:63:21
+  at d:\torus\6.0\development\backend\nodejs\torus-services\api\exchange\routes\adapter\TextAdapter.js:55:13
+  at fs.js:1134:7
+  at FSReqWrap.oncomplete (fs.js:82:15)
+ReferenceError: reqTranDBInstance is not defined
+  at async.series.ex_files_arr.FILE_NAME (d:\torus\6.0\development\backend\nodejs\torus-services\api\exchange\routes\helper\ExchangeHelper.js:538:13)
+  at d:\torus\6.0\development\backend\nodejs\node_modules\async\lib\async.js:718:13
+  at iterate (d:\torus\6.0\development\backend\nodejs\node_modules\async\lib\async.js:262:13)
+  at async.forEachOfSeries.async.eachOfSeries (d:\torus\6.0\development\backend\nodejs\node_modules\async\lib\async.js:281:9)
+  at _parallel (d:\torus\6.0\development\backend\nodejs\node_modules\async\lib\async.js:717:9)
+  at Object.async.series (d:\torus\6.0\development\backend\nodejs\node_modules\async\lib\async.js:739:9)
+  at updateExchangeFileInfo (d:\torus\6.0\development\backend\nodejs\torus-services\api\exchange\routes\helper\ExchangeHelper.js:527:11)
+  at d:\torus\6.0\development\backend\nodejs\torus-services\api\exchange\routes\helper\ExchangeHelper.js:44:25
+  at d:\torus\6.0\development\backend\nodejs\torus-services\api\exchange\routes\helper\ExchangeEngine.js:63:21
+  at d:\torus\6.0\development\backend\nodejs\torus-services\api\exchange\routes\adapter\TextAdapter.js:55:13
+  at fs.js:1134:7
+  at FSReqWrap.oncomplete (fs.js:82:15)
+ReferenceError: callBackGetProcessData is not defined
+  at callChangeStatus (d:\torus\6.0\development\backend\nodejs\torus-services\api\exchange\routes\helper\ExchangeHelper.js:87:9)
+  at d:\torus\6.0\development\backend\nodejs\torus-services\api\exchange\routes\helper\ExchangeHelper.js:46:29
+  at d:\torus\6.0\development\backend\nodejs\torus-services\api\exchange\routes\helper\ExchangeHelper.js:626:9
+  at d:\torus\6.0\development\backend\nodejs\node_modules\async\lib\async.js:726:13
+  at _toString (d:\torus\6.0\development\backend\nodejs\node_modules\async\lib\async.js:52:16)
+  at d:\torus\6.0\development\backend\nodejs\node_modules\async\lib\async.js:269:32
+  at d:\torus\6.0\development\backend\nodejs\node_modules\async\lib\async.js:44:16
+  at d:\torus\6.0\development\backend\nodejs\node_modules\async\lib\async.js:723:17
+  at d:\torus\6.0\development\backend\nodejs\node_modules\async\lib\async.js:167:37
+  at d:\torus\6.0\development\backend\nodejs\torus-services\api\exchange\routes\helper\ExchangeHelper.js:611:17
+  at d:\torus\6.0\development\backend\nodejs\node_modules\async\lib\async.js:718:13
+  at Immediate.iterate [as _onImmediate] (d:\torus\6.0\development\backend\nodejs\node_modules\async\lib\async.js:262:13)
+  at processImmediate [as _immediateCallback] (timers.js:383:17)
+ReferenceError: callBackGetProcessData is not defined
+  at callChangeStatus (d:\torus\6.0\development\backend\nodejs\torus-services\api\exchange\routes\helper\ExchangeHelper.js:87:9)
+  at d:\torus\6.0\development\backend\nodejs\torus-services\api\exchange\routes\helper\ExchangeHelper.js:46:29
+  at d:\torus\6.0\development\backend\nodejs\torus-services\api\exchange\routes\helper\ExchangeHelper.js:626:9
+  at d:\torus\6.0\development\backend\nodejs\node_modules\async\lib\async.js:726:13
+  at _toString (d:\torus\6.0\development\backend\nodejs\node_modules\async\lib\async.js:52:16)
+  at d:\torus\6.0\development\backend\nodejs\node_modules\async\lib\async.js:269:32
+  at d:\torus\6.0\development\backend\nodejs\node_modules\async\lib\async.js:44:16
+  at d:\torus\6.0\development\backend\nodejs\node_modules\async\lib\async.js:723:17
+  at d:\torus\6.0\development\backend\nodejs\node_modules\async\lib\async.js:167:37
+  at d:\torus\6.0\development\backend\nodejs\torus-services\api\exchange\routes\helper\ExchangeHelper.js:611:17
+  at d:\torus\6.0\development\backend\nodejs\node_modules\async\lib\async.js:718:13
+  at Immediate.iterate [as _onImmediate] (d:\torus\6.0\development\backend\nodejs\node_modules\async\lib\async.js:262:13)
+  at processImmediate [as _immediateCallback] (timers.js:383:17)
+SyntaxError: Unexpected token u
+  at Object.parse (native)
+  at d:\torus\6.0\development\backend\nodejs\torus-services\api\exchange\routes\helper\ExchangeHelper.js:214:41
+  at Request._callback (d:\torus\6.0\development\backend\nodejs\torus-services\api\exchange\routes\helper\ExchangeHelper.js:730:13)
+  at Request.init.self.callback (d:\torus\6.0\development\backend\nodejs\node_modules\request\request.js:200:22)
+  at emitTwo (events.js:87:13)
+  at Request.emit (events.js:172:7)
+  at Request.<anonymous> (d:\torus\6.0\development\backend\nodejs\node_modules\request\request.js:1067:10)
+  at emitOne (events.js:82:20)
+  at Request.emit (events.js:169:7)
+  at IncomingMessage.<anonymous> (d:\torus\6.0\development\backend\nodejs\node_modules\request\request.js:988:12)
+  at emitNone (events.js:72:20)
+  at IncomingMessage.emit (events.js:166:7)
+  at endReadableNT (_stream_readable.js:913:12)
+  at nextTickCallbackWith2Args (node.js:442:9)
+  at process._tickDomainCallback (node.js:397:17)
+Error: Redis connection to 188.138.33.42:27055 failed - read ECONNRESET
+  at exports._errnoException (util.js:870:11)
+  at TCP.onread (net.js:552:26)
+Error: Redis connection to 188.138.33.42:27055 failed - read ECONNRESET
+  at exports._errnoException (util.js:870:11)
+  at TCP.onread (net.js:552:26)
+Error: Redis connection to 188.138.33.42:27055 failed - read ECONNRESET
+  at exports._errnoException (util.js:870:11)
+  at TCP.onread (net.js:552:26)
+Error: Redis connection to 188.138.33.42:27055 failed - read ECONNRESET
+  at exports._errnoException (util.js:870:11)
+  at TCP.onread (net.js:552:26)
+Error: Redis connection to 188.138.33.42:27055 failed - read ECONNRESET
+  at exports._errnoException (util.js:870:11)
+  at TCP.onread (net.js:552:26)
+Error: Redis connection to 188.138.33.42:27055 failed - read ECONNRESET
+  at exports._errnoException (util.js:870:11)
+  at TCP.onread (net.js:552:26)
+Error: Redis connection to 188.138.33.42:27055 failed - read ECONNRESET
+  at exports._errnoException (util.js:870:11)
+  at TCP.onread (net.js:552:26)
+Error: Redis connection to 188.138.33.42:27055 failed - read ECONNRESET
+  at exports._errnoException (util.js:870:11)
+  at TCP.onread (net.js:552:26)
+SyntaxError: Unexpected end of input
+  at Object.parse (native)
+  at d:\torus\6.0\development\backend\nodejs\torus-services\api\exchange\routes\helper\ExchangeHelper.js:226:45
+  at Request._callback (d:\torus\6.0\development\backend\nodejs\torus-services\api\exchange\routes\helper\ExchangeHelper.js:783:13)
+  at Request.init.self.callback (d:\torus\6.0\development\backend\nodejs\node_modules\request\request.js:200:22)
+  at emitTwo (events.js:87:13)
+  at Request.emit (events.js:172:7)
+  at Request.<anonymous> (d:\torus\6.0\development\backend\nodejs\node_modules\request\request.js:1067:10)
+  at emitOne (events.js:82:20)
+  at Request.emit (events.js:169:7)
+  at IncomingMessage.<anonymous> (d:\torus\6.0\development\backend\nodejs\node_modules\request\request.js:988:12)
+  at emitNone (events.js:72:20)
+  at IncomingMessage.emit (events.js:166:7)
+  at endReadableNT (_stream_readable.js:913:12)
+  at nextTickCallbackWith2Args (node.js:442:9)
+  at process._tickDomainCallback (node.js:397:17)
+SyntaxError: Unexpected token u
+  at Object.parse (native)
+  at d:\torus\6.0\development\backend\nodejs\torus-services\api\exchange\routes\helper\ExchangeHelper.js:226:45
+  at Request._callback (d:\torus\6.0\development\backend\nodejs\torus-services\api\exchange\routes\helper\ExchangeHelper.js:783:13)
+  at Request.init.self.callback (d:\torus\6.0\development\backend\nodejs\node_modules\request\request.js:200:22)
+  at emitTwo (events.js:87:13)
+  at Request.emit (events.js:172:7)
+  at Request.<anonymous> (d:\torus\6.0\development\backend\nodejs\node_modules\request\request.js:1067:10)
+  at emitOne (events.js:82:20)
+  at Request.emit (events.js:169:7)
+  at IncomingMessage.<anonymous> (d:\torus\6.0\development\backend\nodejs\node_modules\request\request.js:988:12)
+  at emitNone (events.js:72:20)
+  at IncomingMessage.emit (events.js:166:7)
+  at endReadableNT (_stream_readable.js:913:12)
+  at nextTickCallbackWith2Args (node.js:442:9)
+  at process._tickDomainCallback (node.js:397:17)
+SyntaxError: Unexpected token u
+  at Object.parse (native)
+  at d:\torus\6.0\development\backend\nodejs\torus-services\api\exchange\routes\helper\ExchangeHelper.js:226:45
+  at Request._callback (d:\torus\6.0\development\backend\nodejs\torus-services\api\exchange\routes\helper\ExchangeHelper.js:783:13)
+  at Request.init.self.callback (d:\torus\6.0\development\backend\nodejs\node_modules\request\request.js:200:22)
+  at emitTwo (events.js:87:13)
+  at Request.emit (events.js:172:7)
+  at Request.<anonymous> (d:\torus\6.0\development\backend\nodejs\node_modules\request\request.js:1067:10)
+  at emitOne (events.js:82:20)
+  at Request.emit (events.js:169:7)
+  at IncomingMessage.<anonymous> (d:\torus\6.0\development\backend\nodejs\node_modules\request\request.js:988:12)
+  at emitNone (events.js:72:20)
+  at IncomingMessage.emit (events.js:166:7)
+  at endReadableNT (_stream_readable.js:913:12)
+  at nextTickCallbackWith2Args (node.js:442:9)
+  at process._tickDomainCallback (node.js:397:17)
+ReferenceError: ruleObj is not defined
+  at processFieldFormats (d:\torus\6.0\development\backend\nodejs\torus-services\api\exchange\routes\helper\ExchangeEngine.js:279:17)
+  at processRecordFormats (d:\torus\6.0\development\backend\nodejs\torus-services\api\exchange\routes\helper\ExchangeEngine.js:250:18)
+  at Object.ExchangeEngine (d:\torus\6.0\development\backend\nodejs\torus-services\api\exchange\routes\helper\ExchangeEngine.js:39:31)
+  at d:\torus\6.0\development\backend\nodejs\torus-services\api\exchange\routes\helper\ExchangeHelper.js:45:32
+  at d:\torus\6.0\development\backend\nodejs\torus-services\api\exchange\routes\helper\ExchangeHelper.js:293:33
+  at getProcessedDataFromCustomCode (d:\torus\6.0\development\backend\nodejs\torus-services\api\exchange\routes\helper\ExchangeHelper.js:388:9)
+  at d:\torus\6.0\development\backend\nodejs\torus-services\api\exchange\routes\helper\ExchangeHelper.js:277:29
+  at Request._callback (d:\torus\6.0\development\backend\nodejs\torus-services\api\exchange\routes\helper\ExchangeHelper.js:840:13)
+  at Request.init.self.callback (d:\torus\6.0\development\backend\nodejs\node_modules\request\request.js:200:22)
+  at emitTwo (events.js:87:13)
+  at Request.emit (events.js:172:7)
+  at Request.<anonymous> (d:\torus\6.0\development\backend\nodejs\node_modules\request\request.js:1067:10)
+  at emitOne (events.js:82:20)
+  at Request.emit (events.js:169:7)
+  at IncomingMessage.<anonymous> (d:\torus\6.0\development\backend\nodejs\node_modules\request\request.js:988:12)
+  at emitNone (events.js:72:20)
+  at IncomingMessage.emit (events.js:166:7)
+  at endReadableNT (_stream_readable.js:913:12)
+  at nextTickCallbackWith2Args (node.js:442:9)
+  at process._tickDomainCallback (node.js:397:17)
+Error: Redis connection to 188.138.33.42:27055 failed - read ECONNRESET
+  at exports._errnoException (util.js:870:11)
+  at TCP.onread (net.js:552:26)
+Error: Redis connection to 188.138.33.42:27055 failed - read ECONNRESET
+  at exports._errnoException (util.js:870:11)
+  at TCP.onread (net.js:552:26)
+Error: Redis connection to 188.138.33.42:27055 failed - read ECONNRESET
+  at exports._errnoException (util.js:870:11)
+  at TCP.onread (net.js:552:26)
+Error: Redis connection to 188.138.33.42:27055 failed - read ECONNRESET
+  at exports._errnoException (util.js:870:11)
+  at TCP.onread (net.js:552:26)
+Error: Redis connection to 188.138.33.42:27055 failed - read ECONNRESET
+  at exports._errnoException (util.js:870:11)
+  at TCP.onread (net.js:552:26)
+Error: Redis connection to 188.138.33.42:27055 failed - read ECONNRESET
+  at exports._errnoException (util.js:870:11)
+  at TCP.onread (net.js:552:26)
+Error: Redis connection to 188.138.33.42:27055 failed - read ECONNRESET
+  at exports._errnoException (util.js:870:11)
+  at TCP.onread (net.js:552:26)
+Error: Redis connection to 188.138.33.42:27055 failed - read ECONNRESET
+  at exports._errnoException (util.js:870:11)
+  at TCP.onread (net.js:552:26)
+Error: listen EADDRINUSE :::3023
+  at Object.exports._errnoException (util.js:870:11)
+  at exports._exceptionWithHostPort (util.js:893:20)
+  at Server._listen2 (net.js:1234:14)
+  at listen (net.js:1270:10)
+  at Server.listen (net.js:1366:5)
+  at Object.startService (d:\torus\6.0\development\backend\nodejs\torus-references\instance\AppHelper.js:404:12)
+  at EventEmitter.AfterInitDBListener (d:\torus\6.0\development\backend\nodejs\torus-services\api\exchange\app.js:59:22)
+  at emitNone (events.js:67:13)
+  at EventEmitter.emit (events.js:166:7)
+  at d:\torus\6.0\development\backend\nodejs\torus-services\api\exchange\app.js:39:23
+  at doNextCall (d:\torus\6.0\development\backend\nodejs\torus-references\instance\AppHelper.js:56:20)
+  at d:\torus\6.0\development\backend\nodejs\torus-references\instance\AppHelper.js:157:25
+  at Command.callback (d:\torus\6.0\development\backend\nodejs\torus-references\common\InstanceHelper.js:86:19)
+  at normal_reply (d:\torus\6.0\development\backend\nodejs\node_modules\redis\index.js:714:21)
+  at RedisClient.return_reply (d:\torus\6.0\development\backend\nodejs\node_modules\redis\index.js:816:9)
+  at JavascriptRedisParser.Parser.returnReply (d:\torus\6.0\development\backend\nodejs\node_modules\redis\index.js:188:18)
+  at JavascriptRedisParser.execute (d:\torus\6.0\development\backend\nodejs\node_modules\redis\node_modules\redis-parser\lib\parser.js:413:12)
+  at Socket.<anonymous> (d:\torus\6.0\development\backend\nodejs\node_modules\redis\index.js:267:27)
+  at emitOne (events.js:77:13)
+  at Socket.emit (events.js:169:7)
+  at readableAddChunk (_stream_readable.js:153:18)
+  at Socket.Readable.push (_stream_readable.js:111:10)
+  at TCP.onread (net.js:531:20)
+ReferenceError: commonFile is not defined
+  at Request._callback (d:\torus\6.0\development\backend\nodejs\torus-services\api\exchange\routes\adapter\CommonAdapter.js:41:34)
+  at Request.init.self.callback (d:\torus\6.0\development\backend\nodejs\node_modules\request\request.js:200:22)
+  at emitTwo (events.js:87:13)
+  at Request.emit (events.js:172:7)
+  at Request.<anonymous> (d:\torus\6.0\development\backend\nodejs\node_modules\request\request.js:1067:10)
+  at emitOne (events.js:82:20)
+  at Request.emit (events.js:169:7)
+  at IncomingMessage.<anonymous> (d:\torus\6.0\development\backend\nodejs\node_modules\request\request.js:988:12)
+  at emitNone (events.js:72:20)
+  at IncomingMessage.emit (events.js:166:7)
+  at endReadableNT (_stream_readable.js:913:12)
+  at nextTickCallbackWith2Args (node.js:442:9)
+  at process._tickDomainCallback (node.js:397:17)
+Error: Redis connection to 188.138.33.42:27055 failed - connect ETIMEDOUT 188.138.33.42:27055
+  at Object.exports._errnoException (util.js:870:11)
+  at exports._exceptionWithHostPort (util.js:893:20)
+  at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1061:14)
+Error: Redis connection to 188.138.33.42:27055 failed - connect ETIMEDOUT 188.138.33.42:27055
+  at Object.exports._errnoException (util.js:870:11)
+  at exports._exceptionWithHostPort (util.js:893:20)
+  at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1061:14)
+Error: Redis connection to 188.138.33.42:27055 failed - connect ETIMEDOUT 188.138.33.42:27055
+  at Object.exports._errnoException (util.js:870:11)
+  at exports._exceptionWithHostPort (util.js:893:20)
+  at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1061:14)

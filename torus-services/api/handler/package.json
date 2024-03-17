@@ -1,0 +1,8 @@
+{
+  "name": "Handlers",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "title Handler && node --expose-gc app.js"
+  }
+}

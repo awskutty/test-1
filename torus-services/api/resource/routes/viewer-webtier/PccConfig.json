@@ -1,0 +1,10 @@
+{
+    "SearchTermsPath": "%ALLUSERSPROFILE%\\Accusoft\\Prizm\\SearchTerms",
+    "WebServiceScheme": "http",
+    "WebServiceHost": "192.168.2.221",
+    "WebServicePort": "18681",
+    "WebServicePath": "PCCIS/V1",
+    "WebServiceV2Path": "v2",
+    "ApiKey": "2.0.EGLNkOkbPedNtNJbkx5NJxkXjmVbgIlXgN5mASaxaKTNgSVylI5XPmtOVXUxd6JI5EAGk2JmlQrEtbPIAIj2kNtSaQAIPekNAKUElyLmJ6lEAOryJmAEP2aXJeam5xlQLyJNkEJE5KU2VeLNkytQLSUSamaNV6TbU2Jx5mJItXLQrb5xA6dKaIVKJxjOLbdeVNaQtEtGLxlSANVxj2aG5bj2l6aQV6UOdSgXUXrGjNgEJKJSjIdbkITSdmrbrEUXJIjEJXLQVKlKgXUEkQLKrQTNTeamgKUIgeAKVXrKJSaGLQAGU2dQAelQAxUbtmjGL6TQPKlOtXlIg6UEj6P6jEaNUKgOjX5XJSPIgxdGdmTNkGgmANaXAmLNaOtxrGg2UGAEtNPelNVxJydEt2tEtbUKj6jetEjXjNVNAOjmVOPKVQjQJIJOLGkxrGAXlOA2JI5KlegEUO5XjejGV2t6dI5IgyrXPEgmlEJGPGdyAKrIPV6",
+    "EnableDocumentPath": "false"
+  }

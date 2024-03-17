@@ -1,0 +1,8 @@
+{
+	"name": "AuditLog-Consumer",
+	"version": "0.0.0",
+	"private": true,
+	"scripts": {
+		"start": "title AuditLog-Consumer&& node app.js"
+	}
+}

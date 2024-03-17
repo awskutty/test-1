@@ -1,0 +1,8 @@
+{
+  "name": "Report",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "title Report && node --expose-gc app.js"
+  }
+}

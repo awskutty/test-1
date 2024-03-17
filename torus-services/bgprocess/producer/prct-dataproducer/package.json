@@ -1,0 +1,8 @@
+{
+  "name": "prct-dataproducer",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "title prct-dataproducer && node app.js"
+  }
+}

@@ -1,0 +1,110 @@
+{
+    "postgres": [
+        {
+            "key": "SERVICE_MODEL",
+            "value": "{ \"TYPE\": \"LITE\", \"TRANDB\": \"POSTGRES\", \"MODE\": \"DEBUG\", \"NEED_JWT\": \"N\", \"PLATFORM_VERSION\": \"7.0\" , \"AUDIT_ARCHIVAL_MODEL\": \"DB\"}"
+        },
+        {
+            "key": "JWT_SKIP_SERVICES",
+            "value": "{\"SKIP\": {\"SERVICES\": [\"Ping\", \"WPSimpleLogin\", \"Gettenantsetup\", \"GetAppInfo\", \"GetLoginPageInfo\", \"DelRedis\", \"GetWFInfo\", \"DoPlatfomSignin\", \"DoClientSignin\", \"DoClientLogoff\", \"DoPlatformClientSignUp\", \"loadSubscriptionCombo\", \"saveClientPlatformDetails\", \"LoadPlatformUsers\", \"DeletePlatformUser\", \"SavePlatformUser\", \"CltForgotPwd\", \"GetCltNewPwd\", \"GetCltPwdPolicy\", \"CltChangePwd\", \"Do_Login\", \"ClearWPUserSessions\", \"GetCaptcha\", \"GetLangJson\", \"SendForgotPwdOTP\", \"Export\", \"AppSpaceConfiguration\", \"CreateAppSpace\", \"DoRelease\", \"GetClientID\", \"Preparesalt\", \"ChangePassword\", \"ArchivalIndex\", \"ArchivalDeleteIndex\", \"DownloadLogDetails\", \"PrepareConnectorMetrics\", \"Decrypt\", \"Encrypt\", \"RetryMessages\"]}}"
+        },
+        {
+            "key": "JASPER_SERVER~CLT-0~APP-0~TNT-0~ENV-0",
+            "value": "{ \"SERVER\": \"jasperreport\", \"PORT\": \"8080\", \"USERNAME\": \"jasperadmin\", \"PASSWORD\": \"jasperadmin\" }"
+        },
+        {
+            "key": "POSTGRES~CLT-0~APP-0~TNT-0~ENV-0",
+            "value": "{ \"PostgresServers\": [ { \"Server\": \"#PG_SERVER#\", \"Port\": \"#PG_PORT#\", \"Database\": \"#DB_NAME#\", \"UserID\": \"#PG_USERNAME#\", \"Password\": \"#PG_PASSWORD#\", \"Pooling\": \"false\",\"Pool\": { \"max\": 7, \"min\": 0, \"acquireTimeout\": 60000 },\"PostgresSchemas\": [{ \"Code\": \"tran_db\", \"Schema\": \"ad_gss_tran\" },{ \"Code\": \"arc_tran_db\", \"Schema\": \"arc_ad_gss_tran\" }, { \"Code\": \"arc_res_db\", \"Schema\": \"arc_res_tran\" },{ \"Code\": \"clt_cas\", \"Schema\": \"clt_tran\" }, { \"Code\": \"dep_cas\", \"Schema\": \"dep_tran\" }, { \"Code\": \"log_cas\", \"Schema\": \"log_tran\" }, { \"Code\": \"res_cas\", \"Schema\": \"res_tran\" }, { \"Code\": \"public\", \"Schema\": \"public\" }, { \"Code\": \"maindb_public\", \"Schema\": \"maindb_public\" } ] } ] }"
+        },
+        {
+            "key": "SOLR_LANGUAGE~CLT-0~APP-0~TNT-0~ENV-0",
+            "value": "{ \"SERVER\": \"#SOLR#\", \"PORT\": \"#SOLR_PORT#\", \"CORE\": {\"LANGUAGE_CORE\": \"LOCALIZATION\",\"LANGUAGE_NAMESPACE_CORE\": \"language_dictionary_namespace\"} }"
+        },
+        {
+            "key": "SOLR_LOGGING~CLT-0~APP-0~TNT-0~ENV-0",
+            "value": "{\"SERVER\":\"#SOLR#\",\"PORT\":\"#SOLR_PORT#\",\"CORE\":  {\"DEBUG_LOG\": \"DEBUG_LOG\",\"TRAN_VERSION_DETAIL\": \"TRAN_VERSION_DETAIL\",\"TRAN_VERSION\": \"TRAN_VERSION\",\"TRAN\": \"TRAN\",\"FX_TRAN\": \"FX_TRAN\",\"TRAN_ATMT\": \"TRAN_ATMT\",\"PRC_TOKEN\": \"PRC_TOKEN\",\"SCH_JOBS_LOG\": \"SCH_JOBS_LOG\",\"SCH_JOBS_THREAD_LOG\": \"SCH_JOBS_THREAD_LOG\"} }"
+        },
+        {
+            "key": "SOLR_SEARCH~CLT-0~APP-0~TNT-0~ENV-0",
+            "value": "{ \"SERVER\": \"#SOLR#\", \"PORT\": \"#SOLR_PORT#\", \"CORE\": {\"TRAN_ATMT_CONTENT\": \"TRAN_ATMT_CONTENT\",\"TRAN_ATMT\": \"TRAN_ATMT\",\"TRAN\": \"TRAN\",\"FX_TRAN\": \"FX_TRAN\"} }"
+        },
+        {
+            "key": "TRANDB~CLT-0~APP-0~TNT-0~ENV-0",
+            "value": "{ \"DB_TYPE\": \"POSTGRES\", \"Server\": \"#PG_SERVER#\", \"Port\": \"#PG_PORT#\", \"Database\": \"#DB_NAME#\", \"UserID\": \"#PG_USERNAME#\", \"Password\": \"#PG_PASSWORD#\", \"SearchPath\": \"ad_gss_tran\", \"Pooling\": \"false\", \"Pool\": { \"max\": 7, \"min\": 0, \"acquireTimeout\": 60000 } }"
+        },
+        {
+            "key": "KAFKA_CONFIG~CLT-0~APP-0~TNT-0~ENV-0",
+            "value": "{ \"SERVER\": \"kafka\", \"CONSUMER_PORT\": \"2181\", \"PRODUCER_PORT\": \"2181\", \"KAFKA_SERVER_PORT\": \"9092\",\"REPLICATION_FACTOR\":\"#REPLICATION_FACTOR#\", \"NUM_PARTITIONS\":\"4\",\"KAFKA_CONNECT_SERVER_PORT\": \"8083\", \"TRACE_TOPIC\": \"TRACE_LOG\", \"TRAN_DATA_TOPIC\": \"TRAN_DATA\", \"CONTENT_DATA_TOPIC\": \"CONTENT_DATA\", \"OTP_TOPIC\": \"OTP\", \"CONSUMER_OPTIONS\": { \"autoCommit\": false, \"fetchMinBytes\": 1, \"fetchMaxBytes\": 10000000, \"fromOffset\": false, \"fromBeginning\": false,\"maxPollIntervalSec\":\"3600\" } }"
+        },
+        {
+            "key": "CACHE_DB~CLT-0~APP-0~TNT-0~ENV-0",
+            "value": "{\"Redis\": {\"Host\": \"rediscache\",\"Port\": \"6389\",\"Password\":\"11beb6de980e92e4aef38c3625b2ff4610fb757a739bee20ce2366c452b0589ad4c43474\"}}"
+        },
+        {
+            "key": "NGINX_HAPROXY_URL",
+            "value": "{\"url\": \"http:\/\/nodejscs:8082\/microsvc\"}"
+        },
+        {
+            "key": "CP_CLIENT_ID",
+            "value": "{ \"CLT\": \"#CLIENT_ID#\" }"
+        },
+        {
+            "key": "SERVICE_PARAMS",
+            "value": "{ \"Processtokenproducer\": { \"RESTART_FLAG\": true, \"RESTART_MEMORY_VALUE_MB\": 600, \"MAX_ELIGIBLE_COUNT\": 500, \"DELETE_PROCESSED_RECORD\": false, \"LOCKID_EXPIRING_DURATION_HR\": 1 }, \"TranVersionDetailConsumer\": { \"RESTART_FLAG\": true, \"RESTART_MEMORY_VALUE_MB\": 1000, \"PROCESS_MSG_COUNT\": 200 }, \"FXTranConsumer\": { \"RESTART_FLAG\": true, \"RESTART_MEMORY_VALUE_MB\": 600, \"PROCESS_MSG_COUNT\": 200 }, \"AttachmentConsumer\": { \"RESTART_FLAG\": true, \"RESTART_MEMORY_VALUE_MB\": 600, \"PROCESS_MSG_COUNT\": 200, \"MAX_PROCESS_RETRY_COUNT_ON_ERROR\": 10, \"PROCESS_RETRY_INTERVAL_ON_ERROR_SEC\": 60, \"PROCESS_RETRY_ERROR_LIST\": [ \"The pool is probably full\", \"Timeout acquiring a connection\", \"pool is draining and cannot accept work\", \"Unable to acquire a connection\", \"not connected to ORACLE\", \"TimeoutError: operation timed out Error\", \"TNS:listener could not find available handler with matching protocol\", \"end-of-file on communication channel\", \"ETIMEDOUT\", \"ECONNREFUSED\" ] }, \"TranJourneyConsumer\": { \"RESTART_FLAG\": true, \"RESTART_MEMORY_VALUE_MB\": 600, \"PROCESS_MSG_COUNT\": 200 }, \"Exchange\": { \"DELAY_TIME_FOR_DB_RECOVERY_TEST_SEC\": 0, \"DELAY_TIME_FOR_FTP_RECOVERY_TEST_SEC\": 0 }, \"TranDataProducer\": { \"RESTART_FLAG\": true, \"RESTART_MEMORY_VALUE_MB\": 600, \"MAX_ELIGIBLE_COUNT\": 500, \"DELETE_PROCESSED_RECORD\": false, \"LOCKID_EXPIRING_DURATION_HR\": 1 }, \"AtmtDataProducer\": { \"RESTART_FLAG\": true, \"RESTART_MEMORY_VALUE_MB\": 600, \"MAX_ELIGIBLE_COUNT\": 500, \"DELETE_PROCESSED_RECORD\": true, \"LOCKID_EXPIRING_DURATION_HR\": 1 }, \"HSTFXTableDataProducer\": { \"RESTART_FLAG\": true, \"RESTART_MEMORY_VALUE_MB\": 600, \"MAX_ELIGIBLE_COUNT\": 500, \"DELETE_PROCESSED_RECORD\": true, \"LOCKID_EXPIRING_DURATION_HR\": 1 }, \"TRANJourneyDetailProducer\": { \"RESTART_FLAG\": true, \"RESTART_MEMORY_VALUE_MB\": 600, \"MAX_ELIGIBLE_COUNT\": 500, \"LOCKID_EXPIRING_DURATION_HR\": 1 }, \"REPLACE_SPECIAL_CHARCTER\": \"n,r,t,u0001 ,u0002 ,u0003 ,u0004 ,u0005 ,u0006 ,u0007 ,u0008 ,u0009 ,u000A ,u000B ,u000C ,u000D ,u000E ,u000F ,u0010 ,u0011 ,u0012 ,u0013 ,u0014 ,u0015 ,u0016 ,u0017 ,u0018 ,u0019 ,u001A ,u001B ,u001C ,u001D ,u001E ,u001F ,u0020 ,u0021 ,u0022 ,u0023 ,u0024 ,u0025 ,u0026 ,u0027 ,u0028 ,u0029 ,u002A ,u002B ,u002C ,u002D ,u002E ,u002F ,u0030 ,u0031 ,u0032 ,u0033 ,u0034 ,u0035 ,u0036 ,u0037 ,u0038 ,u0039 ,u003A ,u003B ,u003C ,u003D ,u003E ,u003F\", \"LOG_FILE_ROTATION_COUNT\": 50, \"LOG_FILE_MAXIMUM_SIZE_MB\": 5, \"IS_TENANT_MULTI_THREADED\": true }"
+        }
+    ],
+    "oracle": [
+        {
+            "key": "SERVICE_MODEL",
+            "value": "{ \"TYPE\": \"LITE\", \"TRANDB\": \"ORACLE\", \"MODE\": \"DEBUG\", \"NEED_JWT\": \"N\", \"PLATFORM_VERSION\": \"7.0\" ,\"AUDIT_ARCHIVAL_MODEL\": \"DB\"}"
+        },
+        {
+            "key": "JWT_SKIP_SERVICES",
+            "value": "{\"SKIP\": {\"SERVICES\": [\"Ping\", \"WPSimpleLogin\", \"Gettenantsetup\", \"GetAppInfo\", \"GetLoginPageInfo\", \"DelRedis\", \"GetWFInfo\", \"DoPlatfomSignin\", \"DoClientSignin\", \"DoClientLogoff\", \"DoPlatformClientSignUp\", \"loadSubscriptionCombo\", \"saveClientPlatformDetails\", \"LoadPlatformUsers\", \"DeletePlatformUser\", \"SavePlatformUser\", \"CltForgotPwd\", \"GetCltNewPwd\", \"GetCltPwdPolicy\", \"CltChangePwd\", \"Do_Login\", \"ClearWPUserSessions\", \"GetCaptcha\", \"GetLangJson\", \"SendForgotPwdOTP\", \"Export\", \"AppSpaceConfiguration\", \"CreateAppSpace\", \"DoRelease\", \"GetClientID\", \"Preparesalt\", \"ChangePassword\", \"ArchivalIndex\", \"ArchivalDeleteIndex\", \"DownloadLogDetails\", \"PrepareConnectorMetrics\", \"Decrypt\", \"Encrypt\", \"RetryMessages\"]}}"
+        },
+        {
+            "key": "JASPER_SERVER~CLT-0~APP-0~TNT-0~ENV-0",
+            "value": "{ \"SERVER\": \"jasperreport\", \"PORT\": \"8080\", \"USERNAME\": \"jasperadmin\", \"PASSWORD\": \"jasperadmin\" }"
+        },
+        {
+            "key": "ORACLE~CLT-0~APP-0~TNT-0~ENV-0",
+            "value": "{ \"OracleServers\": [ { \"Client\": \"ORACLEDB\", \"Server\": \"oracle\", \"Port\": \"1521\", \"Database\": \"#ORACLE_DATABASE#\", \"UserID\": \"#DB_NAME#_ad_gss_tran\", \"Password\": \"#ORACLE_PASSWORD#\", \"Pooling\": \"false\",\"Pool\": { \"max\": 7, \"min\": 0, \"acquireTimeout\": 60000 }, \"SEARCHPATH\": \"#DB_NAME#_ad_gss_tran\", \"OracleSchemas\": [ { \"Code\": \"tran_db\", \"Schema\": \"ad_gss_tran\" },{ \"Code\": \"clt_cas\", \"Schema\": \"#DB_NAME#_clt_tran\" }, { \"Code\": \"dep_cas\", \"Schema\": \"#DB_NAME#_dep_tran\" }, { \"Code\": \"res_cas\", \"Schema\": \"#DB_NAME#_res_tran\" }, { \"Code\": \"log_cas\", \"Schema\": \"#DB_NAME#_log_tran\" }, { \"Code\": \"maindb_public\", \"Schema\": \"maindb_public\" } ] } ] }"
+        },
+        {
+            "key": "SOLR_LANGUAGE~CLT-0~APP-0~TNT-0~ENV-0",
+            "value": "{ \"SERVER\": \"#SOLR#\", \"PORT\": \"#SOLR_PORT#\", \"CORE\": {\"LANGUAGE_CORE\": \"LOCALIZATION\",\"LANGUAGE_NAMESPACE_CORE\": \"language_dictionary_namespace\"} }"
+        },
+        {
+            "key": "SOLR_LOGGING~CLT-0~APP-0~TNT-0~ENV-0",
+            "value": "{\"SERVER\":\"#SOLR#\",\"PORT\":\"#SOLR_PORT#\",\"CORE\": {\"DEBUG_LOG\": \"DEBUG_LOG\",\"TRAN_VERSION_DETAIL\": \"TRAN_VERSION_DETAIL\",\"TRAN_VERSION\": \"TRAN_VERSION\",\"TRAN\": \"TRAN\",\"FX_TRAN\": \"FX_TRAN\",\"TRAN_ATMT\": \"TRAN_ATMT\",\"PRC_TOKEN\": \"PRC_TOKEN\",\"SCH_JOBS_LOG\": \"SCH_JOBS_LOG\",\"SCH_JOBS_THREAD_LOG\": \"SCH_JOBS_THREAD_LOG\"} }"
+        },
+        {
+            "key": "SOLR_SEARCH~CLT-0~APP-0~TNT-0~ENV-0",
+            "value": "{ \"SERVER\": \"#SOLR#\", \"PORT\": \"#SOLR_PORT#\", \"CORE\": {\"TRAN_ATMT_CONTENT\": \"TRAN_ATMT_CONTENT\",\"TRAN_ATMT\": \"TRAN_ATMT\",\"TRAN\": \"TRAN\",\"FX_TRAN\": \"FX_TRAN\"} }"
+        },
+        {
+            "key": "TRANDB~CLT-0~APP-0~TNT-0~ENV-0",
+            "value": "{ \"DB_TYPE\": \"ORACLE\", \"Server\": \"oracle\", \"Port\": \"1521\", \"Database\": \"#ORACLE_DATABASE#\", \"UserID\": \"#DB_NAME#_ad_gss_tran\", \"Password\": \"#ORACLE_PASSWORD#\", \"SearchPath\": \"ad_gss_tran\", \"Pooling\": \"false\", \"Pool\": { \"max\": 7, \"min\": 0, \"acquireTimeout\": 60000 } }"
+        },
+        {
+            "key": "KAFKA_CONFIG~CLT-0~APP-0~TNT-0~ENV-0",
+            "value": "{ \"SERVER\": \"kafka\", \"CONSUMER_PORT\": \"2181\", \"PRODUCER_PORT\": \"2181\", \"KAFKA_SERVER_PORT\": \"9092\",\"REPLICATION_FACTOR\":\"#REPLICATION_FACTOR#\", \"NUM_PARTITIONS\":\"4\",\"KAFKA_CONNECT_SERVER_PORT\": \"8083\", \"TRACE_TOPIC\": \"TRACE_LOG\", \"TRAN_DATA_TOPIC\": \"TRAN_DATA\", \"CONTENT_DATA_TOPIC\": \"CONTENT_DATA\", \"OTP_TOPIC\": \"OTP\", \"CONSUMER_OPTIONS\": { \"autoCommit\": true, \"fetchMinBytes\": 1, \"fetchMaxBytes\": 10000000, \"fromOffset\": false, \"fromBeginning\": false,\"maxPollIntervalSec\":\"3600\" } }"
+        },
+        {
+            "key": "CACHE_DB~CLT-0~APP-0~TNT-0~ENV-0",
+            "value": "{\"Redis\": {\"Host\": \"rediscache\",\"Port\": \"6389\",\"Password\":\"11beb6de980e92e4aef38c3625b2ff4610fb757a739bee20ce2366c452b0589ad4c43474\"}}"
+        },
+        {
+            "key": "NGINX_HAPROXY_URL",
+            "value": "{\"url\": \"http:\/\/nodejscs:8082\/microsvc\"}"
+        },
+        {
+            "key": "CP_CLIENT_ID",
+            "value": "{ \"CLT\": \"#CLIENT_ID#\" }"
+        },
+        {
+            "key": "SERVICE_PARAMS",
+            "value": "{ \"Processtokenproducer\": { \"RESTART_FLAG\": true, \"RESTART_MEMORY_VALUE_MB\": 600, \"MAX_ELIGIBLE_COUNT\": 500, \"DELETE_PROCESSED_RECORD\": false, \"LOCKID_EXPIRING_DURATION_HR\": 1 }, \"TranVersionDetailConsumer\": { \"RESTART_FLAG\": true, \"RESTART_MEMORY_VALUE_MB\": 1000, \"PROCESS_MSG_COUNT\": 200 }, \"FXTranConsumer\": { \"RESTART_FLAG\": true, \"RESTART_MEMORY_VALUE_MB\": 600, \"PROCESS_MSG_COUNT\": 200 }, \"AttachmentConsumer\": { \"RESTART_FLAG\": true, \"RESTART_MEMORY_VALUE_MB\": 600, \"PROCESS_MSG_COUNT\": 200, \"MAX_PROCESS_RETRY_COUNT_ON_ERROR\": 10, \"PROCESS_RETRY_INTERVAL_ON_ERROR_SEC\": 60, \"PROCESS_RETRY_ERROR_LIST\": [ \"The pool is probably full\", \"Timeout acquiring a connection\", \"pool is draining and cannot accept work\", \"Unable to acquire a connection\", \"not connected to ORACLE\", \"TimeoutError: operation timed out Error\", \"TNS:listener could not find available handler with matching protocol\", \"end-of-file on communication channel\", \"ETIMEDOUT\", \"ECONNREFUSED\" ] }, \"TranJourneyConsumer\": { \"RESTART_FLAG\": true, \"RESTART_MEMORY_VALUE_MB\": 600, \"PROCESS_MSG_COUNT\": 200 }, \"Exchange\": { \"DELAY_TIME_FOR_DB_RECOVERY_TEST_SEC\": 0, \"DELAY_TIME_FOR_FTP_RECOVERY_TEST_SEC\": 0 }, \"TranDataProducer\": { \"RESTART_FLAG\": true, \"RESTART_MEMORY_VALUE_MB\": 600, \"MAX_ELIGIBLE_COUNT\": 500, \"DELETE_PROCESSED_RECORD\": false, \"LOCKID_EXPIRING_DURATION_HR\": 1 }, \"AtmtDataProducer\": { \"RESTART_FLAG\": true, \"RESTART_MEMORY_VALUE_MB\": 600, \"MAX_ELIGIBLE_COUNT\": 500, \"DELETE_PROCESSED_RECORD\": true, \"LOCKID_EXPIRING_DURATION_HR\": 1 }, \"HSTFXTableDataProducer\": { \"RESTART_FLAG\": true, \"RESTART_MEMORY_VALUE_MB\": 600, \"MAX_ELIGIBLE_COUNT\": 500, \"DELETE_PROCESSED_RECORD\": true, \"LOCKID_EXPIRING_DURATION_HR\": 1 }, \"TRANJourneyDetailProducer\": { \"RESTART_FLAG\": true, \"RESTART_MEMORY_VALUE_MB\": 600, \"MAX_ELIGIBLE_COUNT\": 500, \"LOCKID_EXPIRING_DURATION_HR\": 1 }, \"REPLACE_SPECIAL_CHARCTER\": \"n,r,t,u0001 ,u0002 ,u0003 ,u0004 ,u0005 ,u0006 ,u0007 ,u0008 ,u0009 ,u000A ,u000B ,u000C ,u000D ,u000E ,u000F ,u0010 ,u0011 ,u0012 ,u0013 ,u0014 ,u0015 ,u0016 ,u0017 ,u0018 ,u0019 ,u001A ,u001B ,u001C ,u001D ,u001E ,u001F ,u0020 ,u0021 ,u0022 ,u0023 ,u0024 ,u0025 ,u0026 ,u0027 ,u0028 ,u0029 ,u002A ,u002B ,u002C ,u002D ,u002E ,u002F ,u0030 ,u0031 ,u0032 ,u0033 ,u0034 ,u0035 ,u0036 ,u0037 ,u0038 ,u0039 ,u003A ,u003B ,u003C ,u003D ,u003E ,u003F\", \"LOG_FILE_ROTATION_COUNT\": 50, \"LOG_FILE_MAXIMUM_SIZE_MB\": 5, \"IS_TENANT_MULTI_THREADED\": true }"
+        }
+    ]
+}

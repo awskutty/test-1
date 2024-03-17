@@ -1,0 +1,8 @@
+{
+  "name": "Socket",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "title Socket && node --max_old_space_size=1024 --expose-gc app.js"
+  }
+}

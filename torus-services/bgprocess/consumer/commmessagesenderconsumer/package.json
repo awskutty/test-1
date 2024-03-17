@@ -1,0 +1,8 @@
+{
+	"name": "commmessagesenderconsumer",
+	"version": "0.0.0",
+	"private": true,
+	"scripts": {
+		"start": "title commmessagesenderconsumer&& node app.js"
+	}
+}

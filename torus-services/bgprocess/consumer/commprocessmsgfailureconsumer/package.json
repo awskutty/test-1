@@ -1,0 +1,8 @@
+{
+	"name": "commprocessmsgfailureconsumer",
+	"version": "0.0.0",
+	"private": true,
+	"scripts": {
+		"start": "title commprocessmsgfailureconsumer&& node app.js"
+	}
+}

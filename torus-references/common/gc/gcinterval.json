@@ -1,0 +1,12 @@
+{
+    "NodeAuthentication": "30000",
+    "NodeData": "30000",
+    "MiniGoverner": "30000",
+    "Transaction": "30000",
+    "Scheduler": "30000",
+    "UI": "30000",
+    "Resource": "30000",
+    "Report": "30000",
+    "NodeScan": "30000",
+    "Communication": "30000"
+}
